@@ -1,15 +1,16 @@
 {
-  "name": "three-shadertoy-loader",
-  "version": "0.0.1",
+  "name": "three-shadertoy-material-loader",
+  "version": "0.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-cli"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "three-shadertoy-material": "^1.2.5"
+    "three-shadertoy-material": "^1.2.6"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -17,7 +18,8 @@
     "raw-loader": "^0.5.1",
     "three": "^0.93.0",
     "webpack": "^4.16.2",
-    "webpack-cli": "^3.1.0"
+    "webpack-cli": "^3.1.0",
+    "assert": "^1.4.1"
   },
   "peerDependencies": {
     "three": "^0.93.0"

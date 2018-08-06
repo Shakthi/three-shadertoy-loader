@@ -12,13 +12,20 @@ module.exports = {
 			amd: 'three',
 			root: '_'
 		},
+		'three-shadertoy-material':{
+			commonjs: 'three-shadertoy-material',
+			commonjs2: 'three-shadertoy-material',
+			amd: 'three-shadertoy-material',
+			root: '_'
+		}
+		
 	},
 
 	output: {
 		path: path.join(__dirname, 'dist'),
-		filename: 'ShaderToyMaterial.js',
+		filename: 'index.js',
 		libraryTarget: 'umd',
-		library: 'ShaderToyMaterial',
+		library: 'ShaderToyMaterialLoader',
 		globalObject: 'this',
 		libraryExport: "default"
 	},
