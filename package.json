@@ -1,6 +1,6 @@
 {
   "name": "three-shadertoy-material-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -11,6 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "three-shadertoy-material": "^1.2.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shakthi/three-shadertoy-loader.git"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
